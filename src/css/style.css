@@ -1,0 +1,101 @@
+/*MENU*/
+.navbar{
+  height: 120px;
+}
+#navbar .dropdown-menu{
+  margin-top: 28px;
+}
+#navbar ul{
+	margin-top: 40px;
+}
+#navbar a:hover{
+	text-decoration: none;
+	color: #ccc;
+}
+.menu-rigth{
+	width: 40%;
+}
+.logo, .logo a {
+    width: 20%;
+    font-weight: bold;
+}
+.img-menu{
+	width: 50px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-lefth{
+	width: 40%;
+}
+.navbar b{
+  color: #000;
+  font-size: 16px;
+}
+.sobre{
+	margin-top: 120px;
+}
+.slide{
+	top: 100px;
+}
+
+/*CONTEUDO*/
+.conteudo{
+  margin-top: 120px;
+}
+.img_div{
+  width: 100%;
+  height: 250px;
+}
+.carousel-inner{
+  height: 400px;
+}
+.img-resonsive{
+  width: 100%;
+  height: 300px;
+}
+.b{
+  font-size: 20px;
+  word-wrap: break-word;
+}
+.at{
+  font-size: 11px;
+}
+.ob{
+  color: red;
+}
+
+/*FOOTER*/
+.footer {
+	margin-top: 100px;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 60px;
+  	background-color: #0155AC;
+  	color: white;
+}
+.albicod{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+.albicod:hover{
+	color: #CCC;
+	text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+  #navbar{
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    background-color: #fff;
+    font-size: 14px;
+  }
+  .navbar-header{
+  	margin-top: 30px;
+  }
+}
